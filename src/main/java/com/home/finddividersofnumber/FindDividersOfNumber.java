@@ -19,7 +19,7 @@ public class FindDividersOfNumber
         var ulNumber = Long.parseUnsignedLong(bufStdIn.readLine());
         System.out.printf
         (
-           "The number %d has the folowing dividers:\r\n", 
+           "The number %d has the folowing divisors:\r\n", 
            ulNumber
         );
         for(long i = 1; i <= ulNumber; i++)
